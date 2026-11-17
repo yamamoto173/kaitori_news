@@ -1,1 +1,35 @@
 
+[
+  {
+    "name": "買取大吉",
+    "list_url": "https://www.kaitori-daikichi.jp/column/",
+    "feed_url": "https://www.kaitori-daikichi.jp/column/feed/",
+    "link_regex": "^https://www\\.kaitori-daikichi\\.jp/column/(?!category/|tag/|brand/|page/)[^?#]+/(post-)?\\d+/?$"
+  },
+  {
+    "name": "GINZA RASIN",
+    "list_url": "https://www.rasin.co.jp/blog/",
+    "feed_url": "https://www.rasin.co.jp/blog/feed/",
+    "link_regex": "^https://www\\.rasin\\.co\\.jp/blog/[^?#]+/?$",
+    "exclude_regex": "/blog/(brand|rank|tag|page|beginners-guide|maintenance-guide|quiz|supervisor-list|luxury-watch-price-information|sihh|1000banner|60loan)"
+  },
+  {
+    "name": "リユース経済新聞",
+    "list_url": "https://www.recycle-tsushin.com/news/",
+    "feed_url": "https://www.recycle-tsushin.com/feed/",
+    "link_regex": "^https://www\\.recycle-tsushin\\.com/news/[^?#]+/?$",
+    "exclude_regex": "/news/(page|category|tag)/"
+  },
+  {
+    "name": "福ちゃん",
+    "list_url": "https://www.fuku-chan.info/column/",
+    "link_regex": "^https://www\\.fuku-chan\\.info/column/[^?#]+/?$",
+    "exclude_regex": "/column/(page|category|tag)/"
+  },
+  {
+    "name": "TIMELESS",
+    "list_url": "https://timeless-kaitori.com/column/",
+    "link_regex": "^https://timeless-kaitori\\.com/column/[^?#]+/?$",
+    "exclude_regex": "/column/(page|category|tag)/"
+  }
+]
